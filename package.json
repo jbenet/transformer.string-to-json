@@ -1,0 +1,30 @@
+{
+  "name": "transformer.string-to-json",
+  "version": "0.0.1",
+  "description": "transformer conversion: string to json",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "dat-transformer": "~0.1.5",
+    "transformer.json": "0.0.1",
+    "transformer.string": "0.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.string-to-json.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.string-to-json/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.string-to-json"
+}
