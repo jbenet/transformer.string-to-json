@@ -1,9 +1,9 @@
-var transformer = require('dat-transformer');
-var tString = transformer('string');
-var tJson = transformer('json');
+var Conversion = require('transformer-conversion');
+var tString = require('transformer.string');
+var tJson = require('transformer.json');
 // require any other modules you may need here.
 
-module.exports = transformer.Conversion(tString, tJson, convert);
+module.exports = Conversion(tString, tJson, convert);
 
 function convert(str) {
   return JSON.parse(str);

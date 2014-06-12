@@ -1,6 +1,6 @@
 {
   "name": "transformer.string-to-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: string to json",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,7 +12,8 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.json": "0.0.1",
     "transformer.string": "0.0.1"
   },
